@@ -3,40 +3,36 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .tabs {
   display: flex;
   justify-content: center;
   padding: 20px;
   gap: 10px;
-  
 }
+
 .tab {
   padding: 10px 20px;
   background-color: #ad3d3d;
   border: none;
   cursor: pointer;
   border-radius: 5px;
-
 }
-.tab_active {
+
+.tab.active {
   background-color: #d38282;
   color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  
-
 }
-.tab_content {
+
+
+.tab-content {
   display: none;
   margin-top: 20px;
   font-size: 18px;
   padding: 50px;
 }
-.tab_content1 {
-  display: block;
-  display: flex;
-  justify-content: center;
-  padding: 50px;
 
+.tab-content.active {
+  display: block;
 }
+
