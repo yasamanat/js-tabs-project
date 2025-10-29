@@ -1,3 +1,2 @@
-
-https://yasamanat.github.io/js-tabs-project/
+https://roadmap.sh/projects/simple-tabs
 
